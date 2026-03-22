@@ -1,0 +1,372 @@
+/* Apply border-box globally for easier sizing */
+
+body {
+    background-color: rgb(232, 232, 240);
+}
+
+h1 {
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 9999px;
+}
+
+h3 {
+    text-align: center;
+}
+
+mark {
+    background-color: rgb(223, 223, 85);
+    text-transform: uppercase;
+}
+
+.pages_link {
+    padding: 5px;
+    margin: 10px auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+
+a {
+    padding: 8px;
+    margin-right: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgba(93, 136, 73, 0.877);
+}
+
+.pages_link a:hover {
+    background-color: rgb(211, 211, 74);
+
+}
+
+#box_container h2 {
+    width: 95%;
+    text-align: center;
+    font-style: oblique;
+    color: rgb(207, 41, 41);
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 10px 10px;
+}
+
+#box_container {
+    border: none;
+    width: 70%;
+    height: 350px;
+    margin: 2% auto;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: flex-start;
+    background-color: rgb(209, 197, 219);
+    box-shadow: 0px 10px 20px brown;
+
+}
+
+#box_container p {
+    margin-top: 1px;
+    text-align: center;
+    font-size: 50px;
+    font-family: fantasy;
+    font-style: oblique;
+    width: 100%;
+
+}
+
+#hobbies {
+    text-align: left;
+}
+
+#hobbies_list,
+#professional_experience,
+#links {
+    border: none;
+    padding: 15px 25px;
+    min-width: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 11px brown;
+
+}
+
+#professional_experience ul li {
+    margin-left: 40px;
+}
+
+#links h3 {
+    margin-right: 42%;
+}
+
+#links li {
+    margin-right: 15%;
+    list-style-type: none;
+
+}
+
+#links a {
+    border: none;
+    padding: 4px;
+    text-decoration: none;
+}
+
+#hobbies,
+#pro_experience,
+#links_url {
+    color: brown;
+    font-style: oblique;
+    font-size: larger;
+    font-weight: 700;
+}
+
+#hobbies_list li,
+#professional_experience li {
+    list-style-type: none;
+    margin-right: 15%;
+}
+
+button {
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: brown;
+    background-color: burlywood;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: cursive;
+    font-weight: 600;
+    color: brown;
+
+}
+
+#page_footer {
+    border: none;
+    width: 100%;
+    margin: 3% auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 9999px;
+    box-shadow: 0px 2px 6px;
+    background-color: aquamarine;
+    font-size: 15px;
+    font-style: italic;
+    color: red;
+
+}
+
+/*This is for Work Experience Page.*/
+
+#wells_fargo {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: brown;
+}
+
+#point_comfort_group {
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px solid;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: brown;
+}
+
+#company_images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wells_fargo_pic {
+    margin-top: 10px;
+    padding: 10px;
+    height: 100px;
+    width: 200px;
+    align-content: center;
+}
+
+#pcg_pic {
+    width: 450px;
+    height: 110px;
+    align-content: center;
+    display: flex;
+
+}
+
+/*This is for personal project page*/
+
+h3 {
+    margin-left: 5px;
+}
+
+.project_name {
+    text-align: left;
+}
+
+#atm_application {
+    border: 3px solid;
+    border-color: brown;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+#form_for_members {
+    border: 3px solid;
+    border-color: brown;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+#hangman_game {
+    border: 3px solid;
+    border-color: brown;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+#score_note {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#description_of_table {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+#project_evaluation_table {
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.row_data {
+    font-size: large;
+    font-weight: 550;
+    color: rgb(112, 98, 124);
+}
+
+/*This is for Form page*/
+
+#personal_info {
+    border: 2px solid brown;
+    border-radius: 50px;
+    width: 22%;
+    padding-left: 1.5%;
+    margin: 40px auto;
+}
+
+#personal_info a {
+    border: none;
+}
+
+#personal_info strong {
+    font-style: italic;
+}
+
+
+#fill_out_form {
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    font-weight: 600;
+    font-size: large;
+}
+
+#form {
+    width: 800px;
+    height: 370px;
+    margin-top: 15px;
+    margin: 40px auto;
+    padding-top: 1%;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    border-color: brown;
+    background-color: rgb(224, 206, 172);
+    box-shadow: 0px 5px 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+form * {
+    background-color: transparent;
+}
+
+#firstName {
+    margin-top: 10px;
+}
+
+#form_buttons {
+    margin-bottom: 10px;
+}
+
+#form_buttons button:hover {
+    cursor: pointer;
+}
+
+
+
+/*This is for Educational Page*/
+
+#education_highlights {
+    margin: 30px auto;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: brown;
+    box-shadow: 0px 10px 20px;
+    background-color: rgb(214, 169, 85);
+}
+
+#education_highlights p {
+    background-color: transparent;
+}
+
+#education_highlights p strong {
+    background-color: transparent;
+}
+
+#education_details {
+    margin: 4% auto;
+    text-align: center;
+    width: 43%;
+    border: solid 2px;
+    border-radius: 5px;
+    border-color: brown;
+    background-color: rgb(214, 169, 85);
+    padding: 1.5%;
+    box-shadow: 0px 5px 10px;
+}
+
+.each_element {
+    border-radius: 3px;
+    padding: 2%;
+    background-color: rgb(207, 196, 175);
+    box-shadow: 0px 5px 10px;
+    text-align: text-wrap;
+}
+
+#education_details td:nth-child(3),
+#education_details th:nth-child(3) {
+    width: 80px;
+}
+
+#education_details td:nth-child(4),
+#education_details th:nth-child(4) {
+    width: 200px;
+}
