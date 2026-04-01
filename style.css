@@ -925,6 +925,11 @@ form * {
     background-color: transparent;
 }
 
+.education_table {
+    width: 100%;
+    overflow-x: auto;
+}
+
 #education_details {
     margin: 4% auto;
     text-align: center;
@@ -935,6 +940,7 @@ form * {
     background-color: rgb(214, 169, 85);
     padding: 1.5%;
     box-shadow: 0px 5px 10px;
+
 }
 
 .each_element {
@@ -953,4 +959,25 @@ form * {
 #education_details td:nth-child(4),
 #education_details th:nth-child(4) {
     width: 200px;
+}
+
+/*Media Query for Mobile Phone*/
+
+@media screen and (max-width: 767px) {
+    * {
+        box-sizing: border-box;
+    }
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+
+    }
+
+    #education_details {
+        width: 100%;
+        min-width: 500px;
+
+    }
 }
