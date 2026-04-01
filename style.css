@@ -633,6 +633,26 @@ h3 {
     color: rgb(112, 98, 124);
 }
 
+
+#project_evaluation {
+    overflow-x: auto;
+}
+
+/*Media query for phones*/
+@media screen and (max-width: 767px) {
+    #project_evaluation_table {
+        width: 100vw;
+    }
+
+    #project_evaluation_table {
+        display: flex;
+        justify-content: left;
+    }
+
+}
+
+
+
 /*This is for Form page*/
 
 .form_page #headnav {
