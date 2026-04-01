@@ -21,6 +21,7 @@ h1 {
     color: white;
     padding: 0px 15px;
     border-radius: 2px;
+    position: relative;
 
 }
 
@@ -235,12 +236,22 @@ a {
     .pages_link {
         display: none;
         flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 120px;
+        background-color: black;
         border: 1px solid black;
         width: 200px;
     }
 
+
+    .pages_link.show {
+        display: flex;
+    }
+
+
     #imgInfo {
-        height: 95vh;
+        height: 170vh;
         column-gap: 90px;
         grid-template-columns: 1fr 2fr;
     }
@@ -298,12 +309,21 @@ a {
     .pages_link {
         display: none;
         flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 120px;
+        background-color: black;
         border: 1px solid black;
-        width: 100px;
+        width: 200px;
+    }
+
+
+    .pages_link.show {
+        display: flex;
     }
 
     #imgInfo {
-        height: 50vh;
+        height: 100vh;
         column-gap: 90px;
         grid-template-columns: 1fr 2fr;
     }
@@ -361,13 +381,22 @@ a {
     .pages_link {
         display: none;
         flex-direction: column;
+        position: absolute;
+        top: 50px;
+        left: 320px;
+        background-color: black;
         border: 1px solid black;
-        width: 100px;
+        width: 200px;
+    }
+
+
+    .pages_link.show {
+        display: flex;
     }
 
     #imgInfo {
         height: 50vh;
-        column-gap: 90px;
+        column-gap: 120px;
         grid-template-columns: 1fr 2fr;
     }
 
